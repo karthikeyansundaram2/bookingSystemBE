@@ -1,0 +1,40 @@
+{
+  "development": {
+    "username": "root",
+    "database": "bookingsystem",
+    "password": "LeagueX@070707",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  },
+  "test": {
+    "username": "root",
+    "database": "bookingsystem",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  },
+  "production": {
+    "username": "root",
+    "database": "bookingsystem",
+    "password": "LeagueX@070707",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  }
+}
